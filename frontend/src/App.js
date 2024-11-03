@@ -1,9 +1,16 @@
 import './App.css';
+import Home from './pages/home/Home';
+import Login from './pages/login/Login';
+import SignUp from './pages/signUp/SignUp';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
+    <div className="p-4 h-screen flex items-center justify-center">
+      {/* build pages */}
+      {/* <Login /> */}
+      {/* <SignUp /> */}
+      <Home />
     </div>
   );
 }
